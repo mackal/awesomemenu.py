@@ -1,0 +1,5 @@
+Run:
+    python awesomemenu.py | sort > ~/.config/awesome/programmenu.lua
+
+This will also sort by name, this won't be the way to run it forever.
+You then need to manually add it into your rc.lua, this will change too
