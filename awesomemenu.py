@@ -10,7 +10,6 @@ def main():
     files = os.listdir(path)
     # Init our config object
     for file in files:
-        print(file)
         if fnmatch(file, '*.desktop'):
             entry = DesktopEntry(os.path.join(path, file))
             if getIconPath(entry.getIcon()):
